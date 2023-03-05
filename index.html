@@ -5,126 +5,168 @@
 		<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main-minify.css" />
+		<link rel="stylesheet" href="assets/css/main.min.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<meta name="keywords" content="烏托邦,3D動作冒險遊戲,Zelus,UE5,Unreal Engine 5,賽博龐克,亞洲大學,畢業專題">
+		<meta name="robots" content="index, follow">
 		<meta name="author" content="Team Zelus">
-		<meta
-		name="description"
+		<meta name="description"
 		content="3D動作冒險遊戲《電烏托邦：終末之城|UTOPIA：THE DYING CITY》
 		將讓你深入賽博朋克世界，面對敵人們的追捕和攻擊，操縱瓦萊莉抵擋住敵人們的攻擊再抓準時機擊殺他們，並深入場景一步一步地往真相邁進。">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/9.1.0/swiper-bundle.css" integrity="sha512-6HEJkWR1zijwiB3XwQE9eHjDBJmA/Fcl88LlxMba1EC1kakrlXOA14rJmQujhDkTQ6/TSXmGo0w57GbnZ2FSdQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 	</head>
-	<body class="is-preload">
-		<video playsinline autoplay muted loop poster="images/bg.webp" id="bgvid">
-			<source src="images/loop.mp4" type="video/mp4">
-		  </video>
-		<!-- Wrapper -->
-			<div id="wrapper">
 
-				<!-- Header -->
+	<body class="is-preload">
+		<video playsinline autoplay muted loop poster="images/bg.webp" id="bgvid"><source src="images/loop.mp4" type="video/mp4"></video>
+			<div id="wrapper">
 					<header id="header">
 						<div class="content">
 							<div class="inner">
 								<img width="300" height="75" src="images/title.webp" alt="LOGO">
 								<h1 class="neon">烏托邦：終末之城</h1>
 								<p>主角瓦萊莉於貧民窟中髒亂的垃圾堆中醒來，她回想不起發生了甚麼事，也想不起自己為何會在這裡，<br />
-									當她想尋求幫助時，不知為何這裡的人們和機械警察們都在追殺她，而她自己正處在這場事件的風暴中心。<br />
-								</p>
-								<button style="margin-right: 10px;"><a href="#videos">查看預告片</a></button>
-								<button disabled>遊戲下載</button>
+								當她想尋求幫助時，不知為何這裡的人們和機械警察們都在追殺她，而她自己正處在這場事件的風暴中心。<br /></p>
+								<button onclick="location.href='#videos'" style="margin-right: 10px;"><i class="fa-solid fa-film"></i> 查看預告</button>
+								<button onclick="location.href='#download'"><i class="fa-solid fa-download"></i> 遊戲下載</button>
 							</div>
 						</div>
-						<nav>
-							<ul>
-								<li><a href="#intro">遊戲介紹</a></li>
-								<li><a href="#work">遊戲畫面</a></li>
-								<li><a href="#about">關於團隊</a></li>
-								<li><a href="#contact">聯絡我們</a></li>
-								<!--<li><a href="#elements">Elements</a></li>-->
-							</ul>
-						</nav>
+						<nav><ul>
+							<li><a href="#intro">遊戲介紹</a></li>
+							<li><a href="#screenshot">遊戲畫面</a></li>
+							<li><a href="#about">關於團隊</a></li>
+							<li><a href="#contact">聯絡我們</a></li>
+						</ul></nav>
 					</header>
 
-				<!-- Main -->
 					<div id="main">
-
-						<!-- Intro -->
 						<article id="videos">
 							<h2 class="major">查看預告片</h2>
-							<p>Coming Soon</p>
+							<p>敬請期待</p>
+							<!-- <div class="videobox">
+							</div> -->
 						</article>
 
-						<!-- Intro -->
-							<article id="intro">
-								<h2 class="major">遊戲介紹</h2>
-								<span class="image main"><img src="images/title.webp" alt="海報" /></span>
-								<p>主角瓦萊莉於貧民窟中髒亂的垃圾堆中醒來，她回想不起發生了甚麼事，也想不起自己為何會在這裡，</p>
-								<span class="image main"><img src="images/info1.webp" alt="海報" /></span>
-								<p>當她想尋求幫助時，不知為何這裡的人們和機械警察們都在追殺她，而她自己正處在這場事件的風暴中心。</p>
-								<h2>核心玩法</h2>
-								<p>面對敵人們的追捕和攻擊，玩家需要操縱瓦萊莉抵擋住敵人們的攻擊再抓準時機擊殺他們，並深入場景一步一步地往真相邁進。</p>
-								<span class="image main"><img src="images/poster.webp" alt="海報" /></span>
-							</article>
-
-						<!-- Work -->
-							<article id="work">
-								<h2 class="major">遊戲畫面</h2>
-								<span class="image main"><img src="images/screenshot1.webp" alt="主選單" /></span>
-								<span class="image main"><img src="images/screenshot2.webp" alt="遊戲畫面" /></span>
-								<span class="image main"><img src="images/screenshot3.webp" alt="遊戲畫面" /></span>
-								<span class="image main"><img src="images/screenshot4.webp" alt="遊戲畫面" /></span>
-							</article>
-
-						<!-- About -->
-							<article id="about">
-								<h2 class="major">關於團隊</h2>
-								<span class="image main"><img src="images/zelus.webp" alt="Zelus" /></span>
-								<h2>Zelus 團隊</h2>
-								<p>亞洲大學數位媒體設計系108年畢業專題</p>
-								<p>指導老師：蔡明欣</p>
-								<p>程式團隊：</p>
-								<p>馮嘉潁(組長)　製作人、關卡設計、系統規劃</p>
-								<p>關兆煒　程式開發、引擎</p>
-								<p>策劃團隊：</p>
-								<p>李晟嘉　文案策劃、故事設計、發行推廣</p>
-								<p>邱彥澄　關卡策劃、專案管理、發行規劃</p>
-								<p>美術團隊：</p>
-								<p>蔡承學　2D美術、角色美術、角色製作</p>
-								<p>紀  潔　2D美術、場景美術</p>
-
-							</article>
-
-						<!-- Contact -->
-							<article id="contact">
-								<h2 class="major">聯絡我們</h2>
-								<ul class="icons">
-									<!-- <li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-									<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li> -->
-									<li><a href="https://www.instagram.com/zelus.utdc/?igshid=ZDdkNTZiNTM%3D" target="_blank" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-									<!-- <li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li> -->
+						<article id="download">
+							<h2 class="major">遊戲下載</h2>
+							<h3>《電烏托邦：終末之城 | UTOPIA：THE DYING CITY》</h3>
+							<ul>
+								<li>類型：角色扮演，動作，冒險</li>
+								<li>開發人員：Team Zelus</li>
+								<li>發行商：Team Zelus</li>
+								<li>發行日期：敬請期待</li>
+							</ul>
+							<div style="margin-bottom: 30px;">
+							<button disabled onclick="window.open('');" style="margin-right: 10px;"><i class="fa-solid fa-file-arrow-down"></i> 直接下載</button>
+							<button disabled onclick="window.open('');"><i class="fa-brands fa-steam"></i> Steam</button>
+							</div>
+							<h2 class="major">系統需求</h2>
+							<p>需要 64 位元的處理器及作業系統</p>
+							<div style="display:flex; flex-wrap:wrap; justify-content: space-between">
+								<ul style="flex-basis:45%">
+									<li>最低配備</li>
+									<li>作業系統：Windows 10</li>
+									<li>處理器：Intel® Core™ i3-4130 or AMD FX™-6100</li>
+									<li>記憶體：8 GB 記憶體</li>
+									<li>顯示卡：NVIDIA® GeForce® GT 1030 or AMD Radeon™ RX 550</li>
+									<li>儲存空間：5 GB 可用空間</li>
 								</ul>
-							</article>
+								<ul style="flex-basis:45%">
+									<li>建議配備</li>
+									<li>作業系統：Windows 11</li>
+									<li>處理器：Intel® Core™ i5-4460 or AMD FX™-8300</li>
+									<li>記憶體：8 GB 記憶體</li>
+									<li>顯示卡：NVIDIA® GeForce® GTX 1060 or AMD Radeon™ RX 570</li>
+									<li>儲存空間：5 GB 可用空間</li>
+								</ul>
+							</div>
+						</article>
+
+						<article id="intro">
+							<h2 class="major">遊戲介紹</h2>
+							<span class="image main"><img src="images/title.webp" alt="LOGO" /></span>
+							<p>　　3D動作冒險遊戲《電烏托邦：終末之城 | UTOPIA：THE DYING CITY》將讓你深入賽博朋克世界，面對敵人們的追捕和攻擊，操縱瓦萊莉抵擋住敵人們的攻擊再抓準時機擊殺他們，並深入場景一步一步地往真相邁進。</p>
+							<h2 class="major">故事背景</h2>
+							<span class="image main"><img src="images/info1.webp" alt="海報" /></span>
+							<p>　　故事所發生的城市叫做H City，由城市區和地下區所組成。城市區都是政府要員和普通的平民百姓所居住的地方也是本遊戲主角所生活的地區。
+							<br>　　在城市的正下方其實還有一座地下區，而城市區的普通居民都不知其存在。地下區源起於數百年前，當時人們都生活於城市區之中，但過量的人口超出了環境附載力還造成貧富差距過大，為了減輕過量的人口比例，政府以人人吃飽飯、人人有房住為口號招集了大量的低端人口，並將他們分配到地下區去，直接由政府分配房屋給他們居住，還創造穩定的就業機會讓他們進入工廠替政府工作，但是他們所不知道的是政府打從一開始就沒有打算要讓他們再回到城市區，人們不疑有他的相信了政府的說法，就這樣在不見天日的地下區中生活了數百年，他們忘卻了自己原本的身分也忘記了在他們的頭頂上城市區的存在，並世世代代為工廠提供源源不絕的低廉勞動力，用以供養整座城市，但其中有群人他們並沒有忘記政府對他們的迫害，他們潛伏在黑暗之中靜靜等待時機的到來。
+							<br>　　而有人卻斡旋在這兩個組織之間挑起爭端來謀求私利，但她終將會自食惡果。</p>
+							<h2 class="major">遊戲玩法</h2>
+							<p>面對敵人們的追捕和攻擊，玩家需要操縱瓦萊莉抵擋住敵人們的攻擊再抓準時機擊殺他們，並深入場景一步一步地往真相邁進。</p>
+							<h2 class="major">角色介紹</h2>
+							<span class="image main"><img src="images/poster.webp" alt="海報" /></span>
+						</article>
+
+						<article id="screenshot">
+							<h2 class="major">遊戲畫面</h2>
+							<div class="swiper ScreenshotSwiper">
+								<div class="swiper-wrapper">
+									<div class="swiper-slide"><img src="images/screenshot1.webp" alt="主選單" loading="lazy"/><div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div></div>
+									<div class="swiper-slide"><img src="images/screenshot2.webp" alt="遊戲畫面" loading="lazy"/><div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div></div>
+									<div class="swiper-slide"><img src="images/screenshot3.webp" alt="遊戲畫面" loading="lazy"/><div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div></div>
+									<div class="swiper-slide"><img src="images/screenshot4.webp" alt="遊戲畫面" loading="lazy"/><div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div></div>
+								</div>
+								<div class="swiper-button-next"></div>
+								<div class="swiper-button-prev"></div>
+								<div class="swiper-pagination"></div>
+							</div>
+						</article>
+
+						<article id="about">
+							<h2 class="major">關於團隊</h2>
+							<span class="image main"><img src="images/zelus.webp" alt="Zelus" /></span>
+							<p>Zelus 團隊，亞洲大學數位媒體設計系108年畢業專題</p>
+							<p>指導老師：蔡明欣</p>
+							<h2 class="major">成員介紹</h2>
+							<p><i class="fa-solid fa-code"></i> 程式團隊：</p>
+							<p><i class="fa-solid fa-crown"></i> 馮嘉潁　製作人、關卡設計、系統規劃</p>
+							<p>關兆煒　程式開發、引擎</p>
+							<p><i class="fa-solid fa-pen-to-square"></i> 策劃團隊：</p>
+							<p>李晟嘉　文案策劃、故事設計、發行推廣</p>
+							<p>邱彥澄　關卡策劃、專案管理、發行規劃</p>
+							<p><i class="fa-solid fa-palette"></i> 美術團隊：</p>
+							<p>蔡承學　2D美術、角色美術、角色製作</p>
+							<p>紀  潔　2D美術、場景美術</p>
+						</article>
+
+						<article id="contact">
+							<h2 class="major">聯絡我們</h2>
+							<form action="https://formspree.io/f/mbjeyqwa" method="POST">
+								<label>您的電子信箱:<input type="email" name="email"></label>
+								<label>您的留言:<textarea name="message"></textarea></label>
+								<button type="submit">送出</button>
+							</form>
+							<h2 class="major">其他聯絡方式</h2>
+							<ul>
+								<li><a href="mailto:ZelusTW@Gmail.com" class="icon fa-envelope"> Zelus 團隊：ZelusTW@Gmail.com</a></li>
+								<li><a href="mailto:siuwai1999@outlook.com" class="icon fa-envelope"> 關兆煒：SIUWAI1999@Outlook.com</a></li>
+								<li><a href="https://www.instagram.com/zelus.utdc/?igshid=ZDdkNTZiNTM%3D" target="_blank" class="icon brands fa-instagram"> Instagram 訊息</a></li>
+							</ul>
+							<h2 class="major">地址</h2>
+							<p>413 台中市霧峰區柳豐路500號</p>
+							<div class="videobox"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d468.7929900110972!2d120.68730712317496!3d24.0459065414562!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34693b17a99d736b%3A0x1c471d70cdc89dc9!2z5Lqe5rSy5aSn5a24!5e0!3m2!1szh-TW!2stw!4v1678010408186!5m2!1szh-TW!2stw" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+						</article>
 					</div>
 
-				<!-- Footer -->
 					<footer id="footer">
-						<img width="150" src="images/zelus.webp" alt="Zelus" />
+						<ul class="icons">
+							<li><a href="https://www.youtube.com/channel/UCKqjaRb10JKUEBich_YIX0A" target="_blank" class="icon brands fa-youtube"><span class="label">Youtube</span></a></li>
+							<li><a href="https://www.instagram.com/zelus.utdc/?igshid=ZDdkNTZiNTM%3D" target="_blank" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+						</ul>
 						<p class="copyright">&copy; Team Zelus</p>
+						<img width="150" src="images/zelus.webp" alt="Zelus" />
+						<p class="copyright" style="margin-bottom: 6px;">分享</p>
+						<div class="sharethis-inline-share-buttons"></div>
 					</footer>
-
 			</div>
 
-		<!-- BG -->
 			<div id="bg"></div>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 			<script src="assets/js/browser.min.js"></script>
 			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-			<!-- Cloudflare Web Analytics -->
-			<script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "2c2352a62856457e9126137b927b3c8d"}'></script>
-			<!-- End Cloudflare Web Analytics -->
-
+			<script src="assets/js/main.min.js"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/9.1.0/swiper-bundle.min.js" integrity="sha512-sR63/L3Slqn0OWMMafv7gmRGxkYJOcfgdN3jznwea9NYiett6R+cGdZ0t0TRHeH1gZogMyLE1oQpQ0Lc6ULKbg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+			<script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=64049d487044f9001991c202&product=inline-share-buttons' async='async'></script>
 	</body>
 </html>

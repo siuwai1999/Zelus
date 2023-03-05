@@ -4,6 +4,27 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+$(document).ready(function() {
+	var swiper = new Swiper(".ScreenshotSwiper", {
+		spaceBetween: 30,
+		lazy: true,
+		loop: true,
+		centeredSlides: true,
+		autoplay: {
+		delay: 2500,
+		disableOnInteraction: false,
+		},
+		pagination: {
+		el: ".swiper-pagination",
+		clickable: true,
+		},
+		navigation: {
+		nextEl: ".swiper-button-next",
+		prevEl: ".swiper-button-prev",
+		},
+		});
+	});
+
 (function($) {
 
 	var	$window = $(window),
@@ -399,3 +420,4 @@
 					});
 
 })(jQuery);
+
